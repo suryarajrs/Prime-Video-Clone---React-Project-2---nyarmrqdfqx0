@@ -1,0 +1,34 @@
+.actionAdvMain-ul {
+    margin: 10px 10px;
+    gap: 10px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+  }
+  .categories-btn {
+    color: #aaa;
+    border: none;
+    font-size: 24px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .categories-btn:hover {
+    background-color: #aaa;
+    color: black;
+  }
+  
+  @media (max-width: 415px) {
+    .actionAdvMain-ul {
+      margin: 0;
+    }
+    .categories-btn {
+      padding: 6px !important;
+      border-radius: 5px !important;
+      font-size: 18px;
+    }
+    .categories-heading {
+      padding: 0 24px !important;
+      font-size: 22px;
+    }
+  }
+  

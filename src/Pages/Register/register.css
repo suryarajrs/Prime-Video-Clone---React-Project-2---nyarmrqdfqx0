@@ -1,0 +1,43 @@
+.register-form-container {
+    background-color: white;
+    padding: 14px 18px !important;
+    height: 100vh;
+  }
+  
+  .register-form-main {
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  .register-form {
+    width: 350px;
+    margin: 0 auto;
+    border: 1px #ddd solid;
+    background-color: #fff;
+    position: relative;
+    padding: 14px 18px;
+    border-radius: 8px;
+  }
+  .register-create-account-btn {
+    width: 100% !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(213, 217, 217, 0.5);
+    background: #ffd814 !important;
+    border-color: #fcd200 !important;
+    color: black;
+  }
+  
+  .register-create-account-btn:hover {
+    background-color: #fcd200 !important;
+    color: black !important;
+  }
+  
+  @media (max-width: 415px) {
+    .register-form-main {
+      margin: auto;
+      margin-top: 10px;
+      width: 350px;
+    }
+  }
+  

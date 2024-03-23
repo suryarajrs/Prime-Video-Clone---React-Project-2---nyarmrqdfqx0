@@ -1,0 +1,118 @@
+.categories-dropdown-container {
+  box-shadow: 0 4px 8px 2px rgba(0, 5, 13, 0.5);
+  --border-radius: 8px;
+  background-color: #191e25;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  cursor: default;
+  justify-content: space-evenly;
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+ 
+  padding: 0;
+  margin-right: 320px;
+  display: flex !important;
+  flex-direction: row;
+  width: 795px;
+  height: 390px;
+}
+
+.visible {
+  display: block;
+}
+
+.featuredCollection-dropdown,
+.genresDropdown {
+  padding-top: 35px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  line-height: 45px;
+  list-style-type: none;
+}
+
+.featured-collection-label {
+  color: white;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  background-color: #191e25;
+  display: flex;
+  justify-content: space-around;
+}
+
+.genre-label {
+  width: 100%;
+}
+
+.featured-collection-ul {
+  column-count: 2;
+  column-fill: balance;
+  max-width: 100%;
+  margin: 0;
+  padding-bottom: 0px;
+  background-color: #191e25;
+
+}
+
+.featured-collection-li {
+  --border-radius: 8px;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  list-style: none;
+  page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  padding: 5px;
+  color: #aaa;
+  text-align: left;
+}
+
+.genresDropdown {
+  z-index: -1;
+}
+
+.featured-collection-li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+
+}
+
+.categories-dropdown-container:hover .featuredCollection-dropdown,
+.categories-dropdown-container:hover .genresDropdown {
+  display: block;
+}
+
+.active-page .categories-dropdown-container {
+  display: block;
+}
+
+.categories-link-text {
+  text-decoration: none;
+  color: #aaa;
+  font: 500;
+}
+
+.categories-link-text:hover {
+  color: black;
+}
+
+.loginDropDown {
+  width: 0%;
+}
+
+.login-dropdown-ul {
+  column-count: 1;
+}
+
+.login-dropdown-container {
+  min-width: 0%;
+}

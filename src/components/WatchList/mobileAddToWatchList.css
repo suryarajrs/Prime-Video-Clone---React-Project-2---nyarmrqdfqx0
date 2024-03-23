@@ -1,0 +1,37 @@
+.addtoWatchlist-three-dots .ant-btn-primary {
+  background-color: transparent !important;
+  padding: 4px 0 !important;
+}
+
+.mobile-watchlist-modal .ant-modal-content {
+  height: 100px !important;
+  width: 100% !important;
+  position: absolute !important;
+  bottom: 0px;
+  background-color: #191e25;
+}
+.mobile-watchlist-modal .ant-modal-title {
+  background-color: #191e25;
+  color: white;
+}
+
+.mobile-watchlist-modal .ant-modal-footer {
+  display: none;
+}
+
+.mobile-watchlist-modal .ant-btn {
+  padding: 4px 0;
+}
+
+.mobile-watchlist-modal .ant-modal-close-x {
+  color: white;
+}
+
+.watchlist-delete-container {
+  background-color: transparent;
+  color: white;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}

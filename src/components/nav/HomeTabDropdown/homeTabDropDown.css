@@ -1,0 +1,75 @@
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 42px;
+  list-style-type: none;
+  padding: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 11.3%;
+}
+
+.sub-menu.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 10;
+  border-radius: 20px;
+}
+
+.sub-menu ul {
+  list-style-type: none;
+  background-color: #191e25;
+  border-radius: 20px;
+}
+.sub-menu li {
+  width: 100%;
+}
+.sub-menu li:hover {
+  background-color: white !important;
+}
+.sub-menu li a {
+  font-size: 14px;
+  padding: 0px 8px;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.sub-menu li:hover a {
+  color: black;
+}
+
+
+.dropdown-menu-items {
+  padding: 0px;
+  background-color: #191e25;
+  color: #aaa !important;
+  border-radius: 0px;
+  padding: 0;
+  margin: 0;
+
+  
+  
+}
+
+.dropdown-menu-items:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.ant-typography {
+  color: #aaa !important;
+  background-color: transparent;
+}
+
+.optoins-login-headings:hover {
+  background-color: transparent !important;
+  cursor: default;
+}
+.categories-link-text {
+  border-radius: 8px;
+}
+
+.avatar-options {
+  padding: 5px;
+}
+

@@ -1,0 +1,145 @@
+.video-player-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.video-controls button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.video-controls button:focus {
+  outline: none;
+}
+
+.middle-video-btns {
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  color: white;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  /* width: 100%; */
+}
+.top-video-btns {
+  position: absolute;
+  top: 5%;
+  right: 0px;
+  width: 30%;
+}
+
+.show-title-on-video {
+  position: absolute;
+  top: 12%;
+  left: 38%;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.middle-class-btns {
+  font-size: 50px;
+  border: none;
+  background: transparent;
+  color: rgb(167, 161, 161);
+}
+
+.middle-class-btns:hover {
+  color: rgb(246, 242, 242);
+  cursor: pointer;
+}
+
+.top-three-btns-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.video-seek-bar {
+  width: 99%;
+}
+
+.volume-btn-control {
+  font-size: 35px;
+}
+
+.video-seek-bar::-webkit-slider-runnable-track {
+  border-radius: 10px;
+  height: 15px;
+}
+
+.footer-container {
+  display: none;
+}
+
+@media (max-width: 415px) {
+  .show-title-on-video {
+    font-size: 10px;
+    left: 28%;
+    top: 5%;
+  }
+  .top-video-btns {
+    top: 2%;
+  }
+  .top-three-btns-container {
+    padding-right: 0;
+  }
+
+  .volume-btn-control {
+    font-size: 22px !important;
+  }
+  .middle-video-btns {
+    left: 38%;
+  }
+  .middle-class-btns {
+    font-size: 22px !important;
+  }
+  .video-duration {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 390px) {
+  .top-video-btns {
+    top: 13%;
+  }
+  .show-title-on-video {
+    top: 17%;
+    left: 31%;
+  }
+}
+@media (max-width: 821px) {
+  .middle-video-btns {
+    left: 38%;
+  }
+  .show-title-on-video {
+    top: 3%;
+    left: 31%;
+  }
+  .episode-date-duration h3 {
+    font-size: 16px;
+  }
+  .episodes-container {
+    grid-column-gap: 15px;
+  }
+  .episode-details h4 {
+    text-align: justify;
+    font-size: 18px;
+  }
+}

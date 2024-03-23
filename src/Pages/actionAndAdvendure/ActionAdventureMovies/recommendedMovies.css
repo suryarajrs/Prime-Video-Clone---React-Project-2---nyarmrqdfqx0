@@ -1,0 +1,18 @@
+.cards-heaading{
+    display: flex;
+    color: white;
+    padding-left: 20px;
+}
+
+.prime-text-heading{
+    color: #1A98FF;
+}
+
+.seeMore{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}

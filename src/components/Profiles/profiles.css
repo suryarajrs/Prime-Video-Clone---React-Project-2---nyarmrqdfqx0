@@ -1,0 +1,105 @@
+.profile-holder {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+.profiles-container{
+  height: 76vh;
+}
+.profile-heading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 48px;
+  padding-top: 50px;
+}
+.profile-ul {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto auto 8px;
+  list-style-type: none;
+}
+
+.profile-li {
+  height: 180px;
+  width: 164px;
+  position: relative;
+}
+
+.profile-img-btn {
+  padding: 2px 16px 0;
+  background-color: transparent;
+  border: none;
+  position: relative;
+}
+.profile-img {
+  height: 132px;
+  width: 132px;
+  box-shadow: 0 0 0 2px #fff;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: relative;
+}
+.profile-img:hover {
+  transform: scale(1.02);
+}
+
+.profile-name {
+  color: rgba(242, 244, 246);
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.profile-edit-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-edit-btn {
+  background-color: #425265;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 0;
+  padding: 14px 20px;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: all 0.2s ease-out;
+  vertical-align: top;
+  border: none;
+}
+
+.profile-edit-btn:hover {
+  background-color: #566b84;
+}
+
+.edit-pencil-icon {
+  width: 25%;
+  height: 25%;
+  /* color: #72a1da; */
+  color: white;
+  left: 40%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  top: 25%;
+  z-index: 10;
+}

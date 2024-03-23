@@ -1,0 +1,108 @@
+.buttons-recent-addition-container {
+  margin: 0 44px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.addTowatchlist-heading {
+  line-height: 36px;
+  font-weight: 700;
+  padding: 24px 65px;
+  color: white;
+}
+
+.addToWatchlist-btn {
+  background: #ffffff33;
+  border-radius: 8px;
+  color: white;
+  padding: 8px;
+  margin-right: 8px;
+
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: Amazon Ember, Amazon Arabic Ember, Arial, sans-serif !important;
+  font-size: 18px;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 22px;
+  transition-duration: 0.2s;
+
+  transition-property: transform, background-color, color, outline,
+    -webkit-transform;
+  transition-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+  width: fit-content;
+  will-change: transform;
+}
+
+.addToWatchlist-btn.active {
+  background-color: white;
+  color: black;
+}
+
+.title-sort-btn:hover + .sorting-btns-watchlist-container {
+  display: flex;
+}
+
+.sorting-btns-watchlist-container {
+  display: none;
+  flex-direction: column;
+}
+
+.title-sort-btn {
+  height: fit-content;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 0px;
+}
+.title-sort-btn:hover {
+  background-color: white;
+  color: black;
+  display: flex;
+}
+
+
+
+.ant-dropdown-menu-item {
+  background-color: #191e25;
+  color: #aaa !important;
+}
+
+.ant-dropdown-menu-item :hover {
+  background-color: white !important;
+  color: black;
+  /* black on navbar on hover */
+}
+.ant-dropdown-menu {
+  background-color: #191e25 !important;
+}
+
+
+.no-watchlistData {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 24px;
+}
+
+@media (max-width: 415px) {
+  .addTowatchlist-heading {
+    line-height: 0;
+    padding: 4px 24px;
+    font-size: 20px;
+  }
+  .buttons-recent-addition-container {
+    margin: 0 8px;
+    margin-bottom: 0;
+    justify-content: space-evenly;
+  }
+
+  .addToWatchlist-btn {
+    font-size: 16px;
+    padding: 4px;
+  }
+}
